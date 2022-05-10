@@ -326,7 +326,7 @@ button {
 }
 
 .hero-content {
-  background-image: linear-gradient(rgba(30, 18, 18, 0.63), rgba(30, 18, 18, 0.63)), url(../../img/work-img.jpg);
+  background-image: linear-gradient(rgba(30, 18, 18, 0.63), rgba(30, 18, 18, 0.63)), url(../img/work-img.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -401,7 +401,7 @@ button {
 }
 
 .price-section {
-  background-image: linear-gradient(rgba(38, 25, 25, 0.63), rgba(38, 25, 25, 0.63)), url(../../img/hero-img.jpg);
+  background-image: linear-gradient(rgba(38, 25, 25, 0.63), rgba(38, 25, 25, 0.63)), url(../img/hero-img.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -601,7 +601,7 @@ button {
 }
 
 .contact {
-  background-image: linear-gradient(rgba(38, 25, 25, 0.9), rgba(38, 25, 25, 0.9)), url(../../img/price-img.webp);
+  background-image: linear-gradient(rgba(38, 25, 25, 0.9), rgba(38, 25, 25, 0.9)), url(../img/price-img.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
