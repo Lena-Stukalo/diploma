@@ -4,156 +4,253 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=">
-    <title>Document</title>
+    <title>LeatherShop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@700&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    
+    <link rel="stylesheet" href="./css/main.min.css" />
 </head>
 <body>
-    <header>
-        <div class="nav-container">
-            <nav class="navigation">
-                <a class="header-logo" href="./index.html"></a>
-                <ul class="navigation-list">
-                    <li class="navigation-item"><a href="">Про нас</a></li>
-                    <li class="navigation-item"><a href="">Послуги та ціни</a></li>
-                    <li class="navigation-item"><a href="">Майстри</a></li>
-                    <li class="navigation-item"><a href="">контаки</a> </li>
-                </ul>
-            </nav>
-            <ul class="nav-contact-list">
-                <li class="nav-contact-item"> <a href="tel:+380872557435">+380872557435</a></li>
-                <li class="nav-contact-item"> <a href="">Замовити послугу</a></li>
-            </ul>
-            <ul>
-                <li><a href="">Youtube</a></li>
-                <li><a href="">Instagram</a></li>
-            </ul>
+    <header class="header conteiner ">
+            <div class="header-conteiner conteiner">
+                <a class="header-logo" href="./index.html"><img src="./img/logo.svg" alt="Логотип" width="67px"></a>
+                <div class="nav-conteiner">
+                    <nav class="navigation">
+                        <ul class="navigation-list">
+                            <li class="navigation-item"><a href="" class="navigation-link">Про нас</a></li>
+                            <li class="navigation-item"><a href="" class="navigation-link">Послуги та ціни</a></li>
+                            <li class="navigation-item"><a href="" class="navigation-link">Майстри</a></li>
+                            <li class="navigation-item"><a href="" class="navigation-link">Контакти</a> </li>
+                        </ul>
+                    </nav>
+                    <ul class="nav-contact-list">
+                        <li class="nav-contact-item"> <a class="nav-contact-link" href="tel:+380872557435">+380872557435</a></li>
+                        <li class="nav-contact-item"> <a class="button-first button" href="">Онлайн-запис</a></li>
+                    </ul>
+                </div>
         </div>
     </header>
     <main>
-        <section class="hero-section">
-            <div class="hero">
-                <p class="hero-pre-title">Your own style in Kyiv</p>
-                <h1 class="hero-title">LeatherShop</h1>
-                <p class="hero-text">Ми експерти в стильних шкіряних речах.
-                Працюємо швидко, якісно і зі смаком.</p>
+        <section class="hero-section ">
+            
+            <div class="hero conteiner">
+                    <div class="hero-social">
+                        <ul class="hero-social-list">
+                            <li class="hero-social-item"><a href="" class="hero-social-link">Youtube</a></li>
+                            <li class="hero-social-item"><a href="" class="hero-social-link">Instagram</a></li>
+                        </ul>
+                    </div>
+                    <div class="hero-content">
+                        <p class="hero-pre-title pre-title">Your own style in Kyiv</p>
+                        <h1 class="hero-title">LeatherShop</h1>
+                        <p class="hero-text text">Ми експерти в стильних шкіряних речах.
+                        Працюємо швидко, якісно і зі смаком.</p>
+                    </div>
             </div>
         </section>
-        <section class="about-us-section">
-            <div class="about-us">
+        <section class="about-us-section section">
+            <div class="about-us conteiner">
                 <ul class="about-us-list">
-                    <li class="about-us-item"><img class="about-us-img" src="./img/about-us2-fulljpg.jpg" alt="Про нас фото"></li>
-                    <li class="about-us-item"><img class="about-us-img" src="./img/about-us-fulljpg.jpg" alt="Про нас фото"></li>
+                    <li class="about-us-item"><img class="about-us-img" src="./img/about-us2-fulljpg.jpg" alt="Про нас фото" width="270px" height="445px"></li>
+                    <li class="about-us-item"><img class="about-us-img" src="./img/about-us-fulljpg.jpg" alt="Про нас фото" width="270px" height="445px"></li>
                 </ul>
-                <h2 class="about-us-title">Про нас</h2>
-                <p class="about-us-post_title">Краща майстерня твого міста</p>
-                <p class="about-us-content">Якщо ти хочеш додати в свій образ більше впевненості – тобі до нас.</p>
-                <p class="about-us-text">Ми команда, яка ніколи не зупиняється на досягнутому
-                і жадає більшого. І коли твоє замовлення потрапляє до рук нашого майстра, то ти вже ніколи не зможешь бути звичайним .
-                Ми команда, яка завжди с клієнтом "на одній хвилі". Тому, ми взмозі задовольнити кожного!</p>
-                <button>Онлайн-запис</button>
-            </div>
+                <div class="about-us-note">
+                    <h2 class="about-us-title pre-title">Про нас</h2>
+                    <p class="about-us-post_title title">Краща майстерня твого міста</p>
+                    <p class="about-us-content text">Якщо ти хочеш додати в свій образ більше впевненості – тобі до нас.</p>
+                    <p class="about-us-text">Ми команда, яка ніколи не зупиняється на досягнутому
+                        і жадає більшого. І коли твоє замовлення потрапляє до рук нашого майстра, то ти вже ніколи не зможешь бути звичайним
+                        .
+                        Ми команда, яка завжди с клієнтом "на одній хвилі". Тому, ми взмозі задовольнити кожного!</p>
+                    <button class="button">Онлайн-запис</button>
+                </div>
+                </div>
         </section>
-        <section class="price-section">
+        <section class="price-section section conteiner">
             <div class="price">
-                <p class="price-pre_title">Отримай елемент власного стилю від кращих майстрів</p>
-                <h2 class="price-title">Послуги та ціни</h2>
-                <ul class="price-list-left">
-                    <li class="price-item">
-                        <p class="price-text">Нагрудний гаманець</p>
-                        <p class="price-text">від 300 грн.</p>
-                    </li>
-                    <li class="price-item">
-                        <p class="price-text">У два складання</p>
-                        <p class="price-text">від 300 грн.</p>
-                    </li>
-                    <li class="price-item">
-                        <p class="price-text">У три складання</p>
-                        <p class="price-text">від 300 грн.</p>
-                    </li>
-                    <li class="price-item">
-                        <p class="price-text">Капшу́к</p>
-                        <p class="price-text">від 300 грн.</p>
-                    </li>
-                </ul>
-                <ul class="price-list-right">
-                    <li class="price-item">
-                        <p class="price-text">Клатч</p>
-                        <p class="price-text">від 300 грн.</p>
-                    </li>
-                    <li class="price-item">
-                        <p class="price-text">Тревелер</p>
-                        <p class="price-text">від 300 грн.</p>
-                    </li>
-                    <li class="price-item">
-                        <p class="price-text">Вертикальне портмоне</p>
-                        <p class="price-text">від 300 грн.</p>
-                    </li>
-                    <li class="price-item">
-                        <p class="price-text">Гаманець на блискавці</p>
-                        <p class="price-text">від 300 грн.</p>
-                    </li>
-                </ul>
-                <button>Онлайн-запис</button>
+                <p class="price-pre_title pre-title">Отримай елемент власного стилю від кращих майстрів</p>
+                <h2 class="price-title title">Послуги та ціни</h2>
+                <div class="price-list-collection">
+                    <ul class="price-list-left">
+                        <li class="price-item">
+                            <p class="price-text text">Нагрудний гаманець</p>
+                            <p class="price-text text">від 300 грн.</p>
+                        </li>
+                        <li class="price-item">
+                            <p class="price-text text">У два складання</p>
+                            <p class="price-text text">від 300 грн.</p>
+                        </li>
+                        <li class="price-item">
+                            <p class="price-text text">У три складання</p>
+                            <p class="price-text text">від 300 грн.</p>
+                        </li>
+                        <li class="price-item">
+                            <p class="price-text text">Капшу́к</p>
+                            <p class="price-text text">від 300 грн.</p>
+                        </li>
+                    </ul>
+                    <ul class="price-list-right">
+                        <li class="price-item">
+                            <p class="price-text text">Клатч</p>
+                            <p class="price-text text">від 300 грн.</p>
+                        </li>
+                        <li class="price-item">
+                            <p class="price-text text">Тревелер</p>
+                            <p class="price-text text">від 300 грн.</p>
+                        </li>
+                        <li class="price-item">
+                            <p class="price-text text">Вертикальне портмоне</p>
+                            <p class="price-text text">від 300 грн.</p>
+                        </li>
+                        <li class="price-item">
+                            <p class="price-text text">Гаманець на блискавці</p>
+                            <p class="price-text text">від 300 грн.</p>
+                        </li>
+                    </ul>
+                </div>
+                <button class="price-btn button button-first">Онлайн-запис</button>
             </div>
         </section>
-        <section class="advantages-section">
-            <div class="advantages">
-                <p class="advantages-pre_title">Нові техніки поєднані з перевіреними традиціями</p>
-                <h2 class="advantages-title">Переваги</h2>
-                <p class="advantages-content">Чому ти маєш обрати саме нас?</p>
-                <p class="advantages-text">Ми на вустах у багатьох. Але краще 1 раз побачити і відчути вруках виріб наших майстрів ніж 10 разів почути.</p>
+        <section class="advantages-section section">
+            <div class="advantages conteiner">
+                <div class="advantages-note">
+                    <p class="advantages-pre_title pre-title">Нові техніки поєднані з перевіреними традиціями</p>
+                    <h2 class="visually-hidden">Переваги</h2>
+                    <p class="advantages-content title">Чому ти маєш обрати саме нас?</p>
+                    <p class="advantages-text text">Ми на вустах у багатьох. Але краще 1 раз побачити і відчути вруках виріб наших майстрів
+                        ніж 10 разів почути.</p>
+                </div>
                 <ul class="advantages-list">
-                    <li class="advantages-item"><p><span>600</span>Задоволених клієнтів</p></li>
-                    <li class="advantages-item"><p><span>50</span>Нагород за чудовий сервіс</p></li>
-                    <li class="advantages-item"><p><span>20</span>Кращих майстрів Києва</p></li>
-                    <li class="advantages-item"><p><span>100</span>Подарунки постіним клієнтам</p></li>
+                    <li class="advantages-item"><p class="advantages-item-text"><span class="advantages-count">600<span class="advantages-plus">+</span></span>Задоволених клієнтів</p></li>
+                    <li class="advantages-item"><p class="advantages-item-text"><span class="advantages-count">50<span class="advantages-plus">+</span></span>Нагород за чудовий сервіс</p></li>
+                    <li class="advantages-item"><p class="advantages-item-text"><span class="advantages-count">20<span class="advantages-plus">+</span></span>Кращих майстрів Києва</p></li>
+                    <li class="advantages-item"><p class="advantages-item-text"><span class="advantages-count">100<span class="advantages-plus">+</span></span>Подарунки постіним клієнтам</p></li>
                 </ul>
             </div>
         </section>
-        <section class="masters-section">
-            <div class="masters">
-                <p class="masters-pre_title">Для справжніх цінителів мистецтва</p>
-                <h2 class="masters-title">Наші Майстри</h2>
+        <section class="masters-section section">
+            <div class="masters conteiner">
+                <p class="masters-pre_title pre-title">Для справжніх цінителів мистецтва</p>
+                <h2 class="masters-title title">Наші Майстри</h2>
                 <ul class="masters-list">
                     <li class="masters-item">
                         <img class="masters-img" src="./img/master1.jpg" alt="Фото робітника">
                         <h3 class="masters-name">Юлія Симоненко</h3>
                         <p class="masters-content">Extreme Master</p>
-                        <ul class="masters-social-list">
-                            <li class="masters-social-item"></li>
-                            <li class="masters-social-item"></li>
-                            <li class="masters-social-item"></li>
-                            <li class="masters-social-item"></li>
+                        <ul class="masters-social-list social">
+                            <li class="masters-social-item"><a class="social__link" href="">
+                                <svg class="social__svg" width=20px height=20px>
+                                    <use href="./img/symbol-defs.svg#icon-instagram">
+                                
+                                    </use>
+                                </svg>
+                            </a></li>
+                            <li class="masters-social-item"><a class="social__link" href="">
+                                <svg class="social__svg" width=20px height=20px>
+                                    <use href="./img/symbol-defs.svg#icon-twitter">
+                                
+                                    </use>
+                                </svg>
+                            </a></li>
+                            <li class="masters-social-item"><a class="social__link" href="">
+                                <svg class="social__svg" width=20px height=20px>
+                                    <use href="./img/symbol-defs.svg#icon-facebook">
+                                
+                                    </use>
+                                </svg>
+                            </a></li>
+                            <li class="masters-social-item"><a class="social__link" href="">
+                                <svg class="social__svg" width=20px height=20px>
+                                    <use href="./img/symbol-defs.svg#icon-linkedin">
+                                
+                                    </use>
+                                </svg>
+                            </a></li>
                         </ul>
                     </li>
                     <li class="masters-item">
                         <img class="masters-img" src="./img/master2.jpg" alt="Фото робітника">
                         <h3 class="masters-name">Михойло Дудка</h3>
                         <p class="masters-content">Extreme Master</p>
-                        <ul class="masters-social-list">
-                            <li class="masters-social-item"></li>
-                            <li class="masters-social-item"></li>
-                            <li class="masters-social-item"></li>
-                            <li class="masters-social-item"></li>
+                        <ul class="masters-social-list social">
+                            <li class="masters-social-item"><a class="social__link" href="">
+                                    <svg class="social__svg" width=20px height=20px>
+                                        <use href="./img/symbol-defs.svg#icon-instagram">
+                        
+                                        </use>
+                                    </svg>
+                                </a></li>
+                            <li class="masters-social-item"><a class="social__link" href="">
+                                    <svg class="social__svg" width=20px height=20px>
+                                        <use href="./img/symbol-defs.svg#icon-twitter">
+                        
+                                        </use>
+                                    </svg>
+                                </a></li>
+                            <li class="masters-social-item"><a class="social__link" href="">
+                                    <svg class="social__svg" width=20px height=20px>
+                                        <use href="./img/symbol-defs.svg#icon-facebook">
+                        
+                                        </use>
+                                    </svg>
+                                </a></li>
+                            <li class="masters-social-item"><a class="social__link" href="">
+                                    <svg class="social__svg" width=20px height=20px>
+                                        <use href="./img/symbol-defs.svg#icon-linkedin">
+                        
+                                        </use>
+                                    </svg>
+                                </a></li>
                         </ul>
                     </li>
                     <li class="masters-item">
                         <img class="masters-img" src="./img/master3.jpg" alt="Фото робітника">
                         <h3 class="masters-name">Давид Коцик</h3>
                         <p class="masters-content">Extreme Master</p>
-                        <ul class="masters-social-list">
-                            <li class="masters-social-item"></li>
-                            <li class="masters-social-item"></li>
-                            <li class="masters-social-item"></li>
-                            <li class="masters-social-item"></li>
+                        <ul class="masters-social-list social">
+                            <li class="masters-social-item"><a class="social__link" href="">
+                                    <svg class="social__svg" width=20px height=20px>
+                                        <use href="./img/symbol-defs.svg#icon-instagram">
+                        
+                                        </use>
+                                    </svg>
+                                </a></li>
+                            <li class="masters-social-item"><a class="social__link" href="">
+                                    <svg class="social__svg" width=20px height=20px>
+                                        <use href="./img/symbol-defs.svg#icon-twitter">
+                        
+                                        </use>
+                                    </svg>
+                                </a></li>
+                            <li class="masters-social-item"><a class="social__link" href="">
+                                    <svg class="social__svg" width=20px height=20px>
+                                        <use href="./img/symbol-defs.svg#icon-facebook">
+                        
+                                        </use>
+                                    </svg>
+                                </a></li>
+                            <li class="masters-social-item"><a class="social__link" href="">
+                                    <svg class="social__svg" width=20px height=20px>
+                                        <use href="./img/symbol-defs.svg#icon-linkedin">
+                        
+                                        </use>
+                                    </svg>
+                                </a></li>
                         </ul>
                     </li>
                 </ul>
             </div>
         </section>
-        <section class="gallery-section">
-            <div class="gallery">
-                <h2 class="gallery-title">Галерея</h2>
-                <p class="gallery-content">Латинською мовою ”Pulchritudo” - Краса</p>
+        <section class="gallery-section section">
+            <div class="gallery conteiner">
+                <h2 class="visually-hidden">Галерея</h2>
+                <p class="gallery-content pre-title">Латинською мовою ”Pulchritudo” - Краса</p>
                 <ul class="gallery-list">
                     <li class="gallery-item"><img class="gallery-img" src="./img/gallery1.jpg" alt="Фото галереї"></li>
                     <li class="gallery-item"><img class="gallery-img" src="./img/gallery3.jpg" alt="Фото галереї"></li>
@@ -162,39 +259,41 @@
                 </ul>
             </div>
         </section>
-        <section class="contact-section">
-            <div class="contact">
-                <section class="online">
-                    <h2 class="section-title online-title">Онлайн-запись</h2>
+        <section class="comunication-section ">
+            <div class="comunication conteiner">
+                <section class="online section">
+                    <h2 class="title comunication-title">Онлайн-запис</h2>
                     <form action="#" class="online-form">
                         <div class="online-inputs">
                             <input type="text" placeholder="Имя*" name="online-name" class="online-input" />
                             <input type="tel" placeholder="Телефон*" name="online-tel" class="online-input online-input-short" />
                         </div>
                         <textarea name="online-text" class="online-text" placeholder="сообщение"></textarea>
-                        <button type="submit" class="btn online-btn">отправить</button>
+                        <button type="submit" class=" button button-first">відправити</button>
                     </form>
                 </section>
-                <h2 class="contact-title">Контакти</h2>
-                <ul class="contact-list">
-                    <li class="contact-item"><a href="">Вул. Василькова, 7А
-                    Київ, 08132</a> </li>
-                    <li class="contact-item"><a href="tel:+380441111111">+38 044 111 11 11</a></li>
-                    <li class="contact-item"><a href="mailto:leathershop@email.com">leathershop@email.com</a> </li>
-                </ul>
-                <h3 class="work-time">Час роботи</h3>
-                <p class="work-time-content">Кожен день з 9:00 до 22:00</p>
-            </div>
+                <div class="contact section">
+                    <h2 class="comunication-title title">Контакти</h2>
+                    <ul class="contact-list">
+                        <li class="contact-item"><a href="" class="contact-link">Вул. Василькова, 7А
+                                Київ, 08132</a> </li>
+                        <li class="contact-item"><a href="tel:+380441111111" class="contact-link">+38 044 111 11 11</a></li>
+                        <li class="contact-item"><a href="mailto:leathershop@email.com" class="contact-link">leathershop@email.com</a> </li>
+                    </ul>
+                    <h3 class="work-time pre-title">Час роботи</h3>
+                    <p class="contact-link ">Кожен день з 9:00 до 22:00</p>
+                </div>
+                </div>
         </section>
     </main>
-    <footer>
-        <p>&copy; Copyright 2020</p>
-        <ul class="list">
-            <li>
-                <a class="link" href="" target="_blank" rel="noopener noreferrer">Instagram</a>
+    <footer class="footer conteiner">
+        <p class="copyright">&copy; Copyright 2020</p>
+        <ul class="footer-list">
+            <li class="footer-item">
+                <a class="footer-link" href="" target="_blank" rel="noopener noreferrer">Instagram</a>
             </li>
-            <li>
-                <a class="link" href="" target="_blank" rel="noopener noreferrer">Youtube</a>
+            <li class="footer-item">
+                <a class="footer-link" href="" target="_blank" rel="noopener noreferrer">Youtube</a>
             </li>
         </ul>
     </footer>

@@ -1,0 +1,124 @@
+.conteiner {
+    padding-left: 31px;
+    padding-right: 31px;
+    margin: 0 auto;
+    width: 100%;
+
+    @media screen and (min-width: 480px) {
+        width: 480px;
+    }
+
+    @media screen and(min-width:768px) {
+        padding-left: 39px;
+        padding-right: 39px;
+        width: 768px;
+    }
+
+    @media screen and(min-width:1200px) {
+        padding-left: 55px;
+        padding-right: 55px;
+        width: 1280px;
+    }
+}
+.section {
+    padding-top: 84px;
+    padding-bottom: 84px;
+    @media screen and(min-width:768px) {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    @media screen and(min-width:1200px) {
+        padding-top: 130px;
+        padding-bottom: 130px;
+    }
+
+}
+.title{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.17;
+    letter-spacing: 0.05em;
+}
+.pre-title{
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    &::before{
+        content: "";
+        height: 1px;
+        width: 63px;
+        margin-right: 21px;
+        background-color: currentColor;
+    }
+}
+
+.text{
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+}
+.button{
+    padding: 12px 20px;
+    width: 160px;
+    height: 40px;
+    border: 1px solid #FF6C00;
+    border-radius: 25px;
+    background-color: transparent;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    &:hover,
+    &:focus {
+        background-color: var(--accent-color);
+        color: var(--first-btn-color);
+        }
+    
+   
+}
+.button-first{
+    color: var(--first-btn-color);
+}
+.button-second{
+        color: var(--second-btn-color);
+}
+.social {
+    display: flex;
+    justify-content: center;
+}
+
+.social__link {
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: var(--icon-fill-color);
+    background-color: var(--first-btn-color) ;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+    }
+}
+
+.masters-social-item {
+    &:not(:last-child) {
+        margin-right: 10px;
+    }
+}
+
+.social__svg {
+    fill: currentColor;
+}

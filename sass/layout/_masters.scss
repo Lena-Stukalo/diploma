@@ -1,0 +1,41 @@
+.masters-section{
+    background-color: #F7F7F7;;
+}
+.masters-pre_title{
+    color: var(--second-title-color);
+}
+.masters-title{
+    color: var(--second-title-color);
+    margin-bottom: 44px;
+}
+.masters-list{
+    display: flex;
+    align-items: center;
+}
+.masters-item{
+    &:not(:last-child){
+        margin-right: 30px;
+    }
+}
+.masters-img{
+    width: 100%;
+    margin-bottom: 36px;
+}
+.masters-name{
+    font-size: 18px;
+    line-height: 1.38;
+    text-align: center;
+    letter-spacing: 0.02em;
+    
+    color: #303030;
+    margin-bottom: 2px;
+}
+.masters-content{
+    font-size: 14px;
+        line-height: 1.36;
+        text-align: center;
+        letter-spacing: 0.02em;
+    
+        color: #FF6C00;
+        margin-bottom: 30px;
+}

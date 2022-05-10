@@ -1,0 +1,47 @@
+.comunication{
+    display: flex;
+    align-items: center;
+}
+.online{
+    width: 50%;
+    background-color: #261919;
+    padding-left: 58px;
+
+}
+.comunication-title{
+    color: var(--first-title-color);
+    margin-bottom: 44px;
+}
+.contact{
+    background-image: linear-gradient(rgba(38, 25, 25, 0.9),
+                rgba(38, 25, 25, 0.9)),
+            url(../../img/price-img.webp);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        max-width: 100%;
+    width: 50%;
+    padding-left: 100px;
+}
+.contact-list{
+    &:not(:last-child){
+        margin-bottom: 20px;
+    }
+}
+.contact-link{
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+    
+        color: #9DA4BD;
+}
+.work-time{
+    color: #FFFFFF;
+}
+.work-time-content{
+    font-size: 18px;
+        line-height: 1.67;
+        letter-spacing: 0.02em;
+    
+        color: #9DA4BD;
+}
