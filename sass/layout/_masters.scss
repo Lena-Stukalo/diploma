@@ -9,19 +9,38 @@
     margin-bottom: 44px;
 }
 .masters-list{
-    display: flex;
-    align-items: center;
+    @media screen and(min-width:1280px) {
+        display: flex;
+        align-items: center;
+    }
+    
 }
 .masters-item{
+    @media  screen and(max-width:767px) {
+        max-width:418px ;
+        
+    }
+        @media screen and(min-width:768px) {
+            max-width: 450px;
+            margin: 0 auto;
+    
+        }
+    @media screen and(max-width:1279px){
+        &:not(:last-child) {
+                margin-bottom: 64px;
+            }
+    }
+    @media screen and(min-width:1280px) {
     &:not(:last-child){
         margin-right: 30px;
-    }
+    }}
 }
 .masters-img{
     width: 100%;
     margin-bottom: 36px;
 }
 .masters-name{
+    font-weight: 400;
     font-size: 18px;
     line-height: 1.38;
     text-align: center;

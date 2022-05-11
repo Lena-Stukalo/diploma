@@ -1,17 +1,24 @@
 .comunication{
-    display: flex;
+    @media  screen and(min-width:1280px) {
+        display: flex;
+    }
+    
 }
 .online{
-    width: 50%;
+    width: 100%;
     background-color: #261919;
-    padding-left: 58px;
+    
+    @media screen and(min-width:1280px) {
+            width: 50%;
+            padding-left: 58px;
+        }
 
 }
 .comunication-title{
     color: var(--first-title-color);
     margin-bottom: 44px;
 }
-.contact{
+.contact-section{
     background-image: linear-gradient(rgba(38, 25, 25, 0.9),
                 rgba(38, 25, 25, 0.9)),
             url(../img/price-img.webp);
@@ -19,8 +26,19 @@
         background-position: center;
         background-size: cover;
         max-width: 100%;
-    width: 50%;
-    padding-left: 100px;
+    width: 100%;
+    @media screen and(min-width:768px) and(max-width:1279px){
+        display: flex;
+        align-items: center;
+    }
+    
+    @media screen and(min-width:1280px) {
+            width: 50%;
+            padding-left: 100px;;
+        }
+}
+.contact{
+    margin-right: 30px;
 }
 .contact-list{
     &:not(:last-child){
@@ -103,4 +121,7 @@
 
 .online-input-short {
     width: 260px;
+}
+.online-button{
+    margin: 0 auto;
 }

@@ -1,12 +1,21 @@
 .advantages{
-    display: flex;
-    align-items: center;
-    flex-direction: row-reverse;
-    justify-content: space-between;
+    @media screen and(min-width:1280px){
+        display: flex;
+            align-items: center;
+            flex-direction: row-reverse;
+            justify-content: space-between;
+    }
+    
 }
 .advantages-note{
-    width: 50%;
-    
+    width: 100%;
+    @media screen and(min-width:768px)and(max-width:1279px){
+        width: 500px;
+        margin-left: 0;
+    }
+    @media screen and(min-width:1280px){
+        width: 50%;
+    }
 }
 .advantages-pre_title{
     color: var(--second-title-color);
@@ -27,6 +36,9 @@
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+    @media screen and(min-width:768px)and(max-width:1279px) {
+            margin: 0 0 0 auto;
+        }
 }
 .advantages-item{
     width: 170px;

@@ -15,26 +15,51 @@
     margin-bottom: 44px;
 }
 .price-list-collection{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    @media screen and(max-width:1279px){
+        background: linear-gradient(180deg, #241717 0%, rgba(23, 26, 36, 0.2) 100%);
+    }
+    @media screen and(min-width:1280px){
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
     margin-bottom: 50px;
 }
-.price-list-left{
-    width: 50%;
-    padding: 30px 40px;
-    background: linear-gradient(180deg, #241717 0%, rgba(23, 26, 36, 0.2) 100%);
+
+.price-list{
+    width: 100%;
+    padding: 0 30px;
+    @media screen and(min-width:1280px){
+        width: 50%;
+        padding: 30px 40px;
+    }
+}
+.price-list-left {
+    @media screen and(max-width:1279px){
+        padding-top: 30px;
+        margin-bottom: 20px;
+    }
+    @media screen and(min-width:1280px) {
+        background: linear-gradient(180deg, #241717 0%, rgba(23, 26, 36, 0.2) 100%);
+    }
 }
 .price-list-right{
-    width: 50%;
-    padding: 30px 40px;
+    @media screen and(max-width:1279px) {
+            padding-bottom: 30px;
+        }
+    @media screen and(min-width:1280px){
     background: linear-gradient(180deg, #130909 0%, rgba(9, 11, 19, 0.2) 100%);
+    }
 }
 .price-item{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 20px;
+    &:not(:last-child){
+        margin-bottom: 20px;
+    }
+    
 }
 .price-text{
     color: #9DA4BD;

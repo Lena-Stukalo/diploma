@@ -1,23 +1,51 @@
 .about-us{
-    display: flex;
-    align-items: center;
+    @media screen and(min-width:768px){
+        display: flex;
+        align-items: center;
+    }
+    
 }
 .about-us-list{
-    display: flex;
-    width: 50%;
+    @media screen and(max-width:767px){
+        display: none;
+    }
+    @media screen and(min-width:1280px){
+        display: flex;
+            width: 50%;
+    }
+    
     
 }
 .about-us-item{
-    &+&{
-        margin-left:30px ;
+    @media screen and(max-width:1279px) {
+        &:first-child{
+                margin-bottom: 30px;
+            }
     }
+    @media screen and(min-width:1280px) {
+        &+& {
+                margin-left: 30px;
+            }
+        }
+    
 }
 .about-us-img{
+    @media screen and(max-width:1279px){
+        width: 330px;
+        height: 235px;
+        object-fit: cover;
+    }
     width: 270px;
 }
 .about-us-note{
+    width: 100%;
+    @media screen and(min-width:768px){
     width: 50%;
-    padding-left: 64px;
+    margin-left: 30px;
+    }
+    @media screen and(min-width:1280px){
+        margin-left: 64px;
+    }
 }
 .about-us-title{
     color: var(--second-title-color);

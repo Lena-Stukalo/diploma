@@ -1,11 +1,17 @@
 
 .hero{
-    display: flex;
+    @media screen and(min-width:768px){
+        display: flex;
+    }
+    
     
 
 }
 
 .hero-social{
+    @media  screen and(max-width:767px) {
+        display: none;
+    }
     width: 93px;
         display: flex;
         align-items:flex-end;
@@ -49,20 +55,30 @@
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
+    padding: 208px 0 183px 31px;
+    @media screen and(min-width:768px){
+        padding: 280px 157px 234px 70px;
+    }
+    @media screen and(min-width:1280px){
     padding: 272px 0 206px 96px;
     max-width: 100%;
     flex-grow: 1;
+    }
 }
 .hero-title{
     font-family: 'Raleway';
         font-style: normal;
         font-weight: 700;
-        font-size: 72px;
-        line-height: 1.18;
+        font-size: 48px;
+        line-height: 1.17;
         letter-spacing: 0.05em;
         margin-bottom: 20px;
     
         color: #FFFFFF;
+        @media screen and(min-width:1280px){
+            font-size: 72px;
+            line-height: 1.18;
+        }
 }
 .hero-pre-title{
     color: rgba(255, 255, 255, 0.8);
