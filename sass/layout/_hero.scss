@@ -55,7 +55,12 @@
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
-    padding: 208px 0 183px 31px;
+        padding-top: 208px;
+        padding-bottom: 183px;
+        @media screen and(min-width:480px){
+            padding: 208px 0 183px 31px;
+        }
+    
     @media screen and(min-width:768px){
         padding: 280px 157px 234px 70px;
     }
@@ -85,5 +90,5 @@
 }
 .hero-text{
     color: #FFFFFF;
-    width: 400px;
+    max-width: 400px;
 }

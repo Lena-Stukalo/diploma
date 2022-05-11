@@ -385,7 +385,14 @@ button {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding: 208px 0 183px 31px;
+  padding-top: 208px;
+  padding-bottom: 183px;
+}
+
+@media screen and (min-width: 480px) {
+  .hero-content {
+    padding: 208px 0 183px 31px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -426,7 +433,7 @@ button {
 
 .hero-text {
   color: #FFFFFF;
-  width: 400px;
+  max-width: 400px;
 }
 
 @media screen and (min-width: 768px) {
