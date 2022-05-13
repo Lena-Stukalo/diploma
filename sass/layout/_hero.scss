@@ -1,12 +1,28 @@
 
 .hero{
-    @media screen and(min-width:768px){
+    margin: 0 auto;
+    @media screen and(max-width:767px){
+        width: 100%;
+        max-width: 480px;
+        
+    }
+    @media screen and(min-width:768px) {
         display: flex;
+        padding-left: 39px;
+        padding-right: 39px;
+        width: 768px;
     }
     
+    @media screen and(min-width:1280px) {
+        padding-left: 55px;
+        padding-right: 55px;
+        width: 1280px;
+    }
     
 
 }
+
+
 
 .hero-social{
     @media  screen and(max-width:767px) {
@@ -60,7 +76,6 @@
         @media screen and(min-width:480px){
             padding: 208px 0 183px 31px;
         }
-    
     @media screen and(min-width:768px){
         padding: 280px 157px 234px 70px;
     }

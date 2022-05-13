@@ -1,6 +1,4 @@
 .mobile-nemu{
-    
-    
         @media screen and(max-width:767px) {
             width: 66%;
             position: fixed;
@@ -13,7 +11,7 @@
             transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
                 visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
             height: 100%;
-            padding: 48px 40px;
+            padding: 60px 40px;
             overflow: scroll;
             z-index: 10000;
             background-color: #ffffff;
